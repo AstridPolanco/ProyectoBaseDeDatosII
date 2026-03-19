@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cajero Automático — Base de Datos II</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-wrap">
+    <div class="logo-icon">ATM</div>
+    <div>
+      <div class="logo-text">CAJERO AUTOMÁTICO</div>
+      <div class="logo-sub">BASE DE DATOS II — UNIVERSIDAD MARIANO GÁLVEZ</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="api-badge">
+      <div class="live"></div>
+      <label>API BASE:</label>
+      <input type="text" id="apiBase" value="https://localhost:7270">
+    </div>
+  </div>
+</header>
+
+<nav>
+  <button class="nav-btn active" onclick="go('cuentahabiente')">Cuentahabientes</button>
+  <button class="nav-btn" onclick="go('cuenta')">Cuentas</button>
+  <div class="nav-div"></div>
+  <button class="nav-btn" onclick="go('tarjeta')">Tarjetas</button>
+  <button class="nav-btn" onclick="go('deposito')">Depósito</button>
+  <button class="nav-btn" onclick="go('notacredito')">Nota Crédito</button>
+  <div class="nav-div"></div>
+  <button class="nav-btn" onclick="go('cheque')">Cheque</button>
+  <button class="nav-btn" onclick="go('notadebito')">Nota Débito</button>
+  <button class="nav-btn" onclick="go('bitacora')">Bitácora</button>
+  <div class="nav-div"></div>
+</nav>
+
+<div class="main">
+
+<div class="panel active" id="panel-cuentahabiente">
+  <div class="page-title">
+    <h2>Cuentahabientes</h2>
+    <span class="page-badge badge-p1">Gestión</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Crear cuentahabiente</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/cuentahabiente/crear</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>Primer nombre</label><input id="ch-pn" placeholder="Ej. Juan"></div>
+        <div class="field"><label>Segundo nombre</label><input id="ch-sn" placeholder="Opcional"></div>
+        <div class="field"><label>Primer apellido</label><input id="ch-pa" placeholder="Ej. Pérez"></div>
+        <div class="field"><label>Segundo apellido</label><input id="ch-sa" placeholder="Opcional"></div>
+        <div class="field"><label>CUI</label><input id="ch-cui" placeholder="13 dígitos"></div>
+        <div class="field"><label>Fecha nacimiento</label><input type="date" id="ch-fn"></div>
+        <div class="field"><label>Email</label><input id="ch-email" placeholder="correo@email.com"></div>
+        <div class="field"><label>Teléfono</label><input id="ch-tel" placeholder="8 dígitos"></div>
+      </div>
+      <button class="btn btn-green" onclick="call('POST','/api/cuentahabiente/crear',{primerNombre:v('ch-pn'),segundoNombre:v('ch-sn')||null,primerApellido:v('ch-pa'),segundoApellido:v('ch-sa')||null,cui:v('ch-cui'),fechaDeNacimiento:v('ch-fn'),email:v('ch-email'),telefono:v('ch-tel')||null},'resp-ch-crear')">CREAR</button>
+      <div class="resp" id="resp-ch-crear"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Listar cuentahabientes</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/cuentahabiente/listar</span>
+      </div>
+      <div class="fg fg1">
+        <div class="field"><label>Búsqueda (opcional)</label><input id="ch-bus" placeholder="Nombre, apellido o CUI..."></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/cuentahabiente/listar?busqueda='+v('ch-bus'),'resp-ch-list')">BUSCAR</button>
+      <div class="resp" id="resp-ch-list"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Obtener cuentahabiente</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/cuentahabiente/obtener</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuentahabiente</label><input type="number" id="ch-oid" placeholder="Ej. 1"></div>
+        <div class="field"><label>CUI</label><input id="ch-ocui" placeholder="13 dígitos"></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/cuentahabiente/obtener?idCuentaHabitante='+v('ch-oid')+'&cui='+v('ch-ocui'),'resp-ch-get')">BUSCAR</button>
+      <div class="resp" id="resp-ch-get"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Actualizar cuentahabiente</h3>
+        <span class="method m-post">PUT</span>
+        <span class="endpoint">/api/cuentahabiente/actualizar</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuentahabiente</label><input type="number" id="ch-uid" placeholder="Ej. 1"></div>
+        <div class="field"><label>Email nuevo</label><input id="ch-uemail" placeholder="nuevo@email.com"></div>
+        <div class="field"><label>Teléfono nuevo</label><input id="ch-utel" placeholder="8 dígitos"></div>
+      </div>
+      <button class="btn btn-yellow" onclick="call('PUT','/api/cuentahabiente/actualizar',{idCuentaHabitante:+v('ch-uid'),email:v('ch-uemail')||null,telefono:v('ch-utel')||null},'resp-ch-upd')">ACTUALIZAR</button>
+      <div class="resp" id="resp-ch-upd"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-cuenta">
+  <div class="page-title">
+    <h2>Cuentas Bancarias</h2>
+    <span class="page-badge badge-p1">Gestión</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Crear cuenta</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/cuenta/crear</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuentahabiente</label><input type="number" id="cu-idch" placeholder="Ej. 1"></div>
+        <div class="field"><label>Tipo (1=Monetaria, 2=Ahorro)</label><input type="number" id="cu-tipo" placeholder="1 o 2"></div>
+        <div class="field"><label>No. cuenta</label><input id="cu-no" placeholder="Ej. 001-000001-01"></div>
+      </div>
+      <button class="btn btn-green" onclick="call('POST','/api/cuenta/crear',{idCuentaHabitante:+v('cu-idch'),idTipoCuenta:+v('cu-tipo'),noCuenta:v('cu-no')},'resp-cu-crear')">CREAR</button>
+      <div class="resp" id="resp-cu-crear"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Obtener cuenta</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/cuenta/obtener</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="cu-oid" placeholder="Ej. 1"></div>
+        <div class="field"><label>No. cuenta</label><input id="cu-ono" placeholder="Ej. 001-000001-01"></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/cuenta/obtener?idCuenta='+v('cu-oid')+'&noCuenta='+v('cu-ono'),'resp-cu-get')">BUSCAR</button>
+      <div class="resp" id="resp-cu-get"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Cuentas por cuentahabiente</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/cuenta/listar/{id}</span>
+      </div>
+      <div class="fg fg1">
+        <div class="field"><label>ID cuentahabiente</label><input type="number" id="cu-lid" placeholder="Ej. 1"></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/cuenta/listar/'+v('cu-lid'),'resp-cu-list')">LISTAR</button>
+      <div class="resp" id="resp-cu-list"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-tarjeta">
+  <div class="page-title">
+    <h2>Tarjetas de Débito</h2>
+    <span class="page-badge badge-p2">Seguridad</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Crear tarjeta</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/tarjeta/crear</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuentahabiente</label><input type="number" id="td-idch" placeholder="Ej. 1"></div>
+        <div class="field"><label>ID cuenta</label><input type="number" id="td-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>No. tarjeta (16 dígitos)</label><input id="td-no" placeholder="4111111111111111" maxlength="16"></div>
+        <div class="field"><label>Fecha vencimiento</label><input type="date" id="td-fv"></div>
+        <div class="field"><label>CVV</label><input id="td-cvv" placeholder="3 dígitos" maxlength="3"></div>
+        <div class="field"><label>PIN (4 dígitos)</label><input type="password" id="td-pin" placeholder="****" maxlength="4"></div>
+      </div>
+      <button class="btn btn-accent" onclick="call('POST','/api/tarjeta/crear',{idCuentaHabitante:+v('td-idch'),idCuenta:+v('td-idc'),noTarjeta:v('td-no'),fechaVencimiento:v('td-fv'),cvv:v('td-cvv'),pin:v('td-pin')},'resp-td-crear')">CREAR TARJETA</button>
+      <div class="resp" id="resp-td-crear"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Validar PIN</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/tarjeta/validarpin</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>No. tarjeta</label><input id="vp-no" placeholder="16 dígitos"></div>
+        <div class="field"><label>PIN</label><input type="password" id="vp-pin" placeholder="****" maxlength="4"></div>
+      </div>
+      <button class="btn btn-accent" onclick="call('POST','/api/tarjeta/validarpin',{noTarjeta:v('vp-no'),pinIngresado:v('vp-pin')},'resp-vp')">VALIDAR PIN</button>
+      <div class="resp" id="resp-vp"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Obtener tarjeta</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/tarjeta/obtener</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID tarjeta</label><input type="number" id="ot-id" placeholder="Ej. 1"></div>
+        <div class="field"><label>No. tarjeta</label><input id="ot-no" placeholder="16 dígitos"></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/tarjeta/obtener?idTarjeta='+v('ot-id')+'&noTarjeta='+v('ot-no'),'resp-ot')">BUSCAR</button>
+      <div class="resp" id="resp-ot"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Tarjetas por cuenta</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/tarjeta/listar/{id}</span>
+      </div>
+      <div class="fg fg1">
+        <div class="field"><label>ID cuenta</label><input type="number" id="lt-idc" placeholder="Ej. 1"></div>
+      </div>
+      <button class="btn btn-accent" onclick="callGet('/api/tarjeta/listar/'+v('lt-idc'),'resp-lt')">LISTAR</button>
+      <div class="resp" id="resp-lt"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-deposito">
+  <div class="page-title">
+    <h2>Depósito</h2>
+    <span class="page-badge badge-p2">Transacción</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Realizar depósito</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/transaccion/deposito</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="dep-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>Monto (GTQ)</label><input type="number" id="dep-monto" placeholder="0.00" step="0.01"></div>
+        <div class="field"><label>Descripción</label><input id="dep-desc" placeholder="Opcional"></div>
+        <div class="field"><label>Usuario</label><input id="dep-user" placeholder="Ej. cajero1"></div>
+      </div>
+      <button class="btn btn-accent" onclick="call('POST','/api/transaccion/deposito',{idCuenta:+v('dep-idc'),monto:+v('dep-monto'),descripcion:v('dep-desc')||null,usuario:v('dep-user')||null},'resp-dep')">DEPOSITAR</button>
+      <div class="resp" id="resp-dep"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-notacredito">
+  <div class="page-title">
+    <h2>Nota de Crédito</h2>
+    <span class="page-badge badge-p2">Transacción</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Registrar nota de crédito</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/transaccion/notacredito</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="nc-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>Monto (GTQ)</label><input type="number" id="nc-monto" placeholder="0.00" step="0.01"></div>
+        <div class="field"><label>Descripción</label><input id="nc-desc" placeholder="Opcional"></div>
+        <div class="field"><label>Usuario</label><input id="nc-user" placeholder="Ej. cajero1"></div>
+      </div>
+      <button class="btn btn-accent" onclick="call('POST','/api/transaccion/notacredito',{idCuenta:+v('nc-idc'),monto:+v('nc-monto'),descripcion:v('nc-desc')||null,usuario:v('nc-user')||null},'resp-nc')">REGISTRAR</button>
+      <div class="resp" id="resp-nc"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-cheque">
+  <div class="page-title">
+    <h2>Pago de Cheque</h2>
+    <span class="page-badge badge-p3">Transacción</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Pagar cheque</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/transaccion/pagarcheque</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="chq-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>Monto (GTQ)</label><input type="number" id="chq-monto" placeholder="0.00" step="0.01"></div>
+        <div class="field"><label>No. cheque</label><input id="chq-no" placeholder="Ej. CHQ-0001"></div>
+        <div class="field"><label>Fecha del cheque</label><input type="date" id="chq-fecha"></div>
+        <div class="field"><label>Usuario</label><input id="chq-user" placeholder="Ej. cajero1"></div>
+      </div>
+      <button class="btn btn-purple" onclick="call('POST','/api/transaccion/pagarcheque',{idCuenta:+v('chq-idc'),monto:+v('chq-monto'),noCheque:v('chq-no'),fechaCheque:v('chq-fecha'),usuario:v('chq-user')||null},'resp-chq')">PAGAR CHEQUE</button>
+      <div class="resp" id="resp-chq"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-notadebito">
+  <div class="page-title">
+    <h2>Nota de Débito</h2>
+    <span class="page-badge badge-p3">Transacción</span>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <h3>Registrar nota de débito</h3>
+        <span class="method m-post">POST</span>
+        <span class="endpoint">/api/transaccion/notadebito</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="nd-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>ID tarjeta</label><input type="number" id="nd-idt" placeholder="Ej. 1"></div>
+        <div class="field"><label>Monto (GTQ)</label><input type="number" id="nd-monto" placeholder="0.00" step="0.01"></div>
+        <div class="field"><label>Descripción</label><input id="nd-desc" placeholder="Opcional"></div>
+        <div class="field"><label>Usuario</label><input id="nd-user" placeholder="Ej. cajero1"></div>
+      </div>
+      <button class="btn btn-purple" onclick="call('POST','/api/transaccion/notadebito',{idCuenta:+v('nd-idc'),idTarjeta:+v('nd-idt'),monto:+v('nd-monto'),descripcion:v('nd-desc')||null,usuario:v('nd-user')||null},'resp-nd')">REGISTRAR</button>
+      <div class="resp" id="resp-nd"></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-bitacora">
+  <div class="page-title">
+    <h2>Bitácora y Movimientos</h2>
+    <span class="page-badge badge-p3">Consultas</span>
+  </div>
+  <div class="grid2" style="margin-bottom:20px">
+    <div class="card">
+      <div class="card-head">
+        <h3>Bitácora de cuenta</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/bitacora/obtener</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="bit-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>Fecha inicio</label><input type="date" id="bit-fi"></div>
+        <div class="field"><label>Fecha fin</label><input type="date" id="bit-ff"></div>
+      </div>
+      <button class="btn btn-accent" onclick="cargarBitacora()">VER BITÁCORA</button>
+      <div class="resp" id="resp-bit"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Movimientos</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/bitacora/movimientos</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta</label><input type="number" id="mov-idc" placeholder="Ej. 1"></div>
+        <div class="field"><label>Tipo</label>
+          <select id="mov-tipo">
+            <option value="">Todos</option>
+            <option value="1">Depósito</option>
+            <option value="2">Cheque</option>
+            <option value="3">Nota crédito</option>
+            <option value="4">Nota débito</option>
+          </select>
+        </div>
+        <div class="field"><label>Fecha inicio</label><input type="date" id="mov-fi"></div>
+        <div class="field"><label>Fecha fin</label><input type="date" id="mov-ff"></div>
+      </div>
+      <button class="btn btn-accent" onclick="cargarMovimientos()">VER MOVIMIENTOS</button>
+      <div class="resp" id="resp-mov"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3>Errores y excepciones</h3>
+        <span class="method m-get">GET</span>
+        <span class="endpoint">/api/bitacora/errores</span>
+      </div>
+      <div class="fg fg2">
+        <div class="field"><label>ID cuenta (opcional)</label><input type="number" id="err-idc" placeholder="Dejar vacío = todos"></div>
+        <div class="field"><label>Fecha inicio</label><input type="date" id="err-fi"></div>
+      </div>
+      <button class="btn btn-red" onclick="callGet('/api/bitacora/errores?idCuenta='+v('err-idc')+'&fechaInicio='+v('err-fi'),'resp-err')">VER ERRORES</button>
+      <div class="resp" id="resp-err"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<footer>CAJERO AUTOMÁTICO — BASE DE DATOS II — UNIVERSIDAD MARIANO GÁLVEZ DE GUATEMALA — 2026</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
