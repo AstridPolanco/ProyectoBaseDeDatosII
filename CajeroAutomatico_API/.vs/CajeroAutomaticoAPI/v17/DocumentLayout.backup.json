@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\bitacoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\bitacoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\models\\bitacoramodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:models\\bitacoramodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\services\\bitacoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:services\\bitacoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\cuentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\cuentahabientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\cuentahabientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\models\\cuentahabientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:models\\cuentahabientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\models\\cuentamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:models\\cuentamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\errorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\errorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\tarjetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\models\\tarjetamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:models\\tarjetamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\services\\tarjetaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:services\\tarjetaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\models\\transaccionmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:models\\transaccionmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|c:\\users\\hp blue\\desktop\\tareas\\proybsdii\\proyectobasededatosii\\cajeroautomatico_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CE0C30A-C48E-4CD1-9706-9198DB209D1C}|CajeroAutomaticoAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 23,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransaccionModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\TransaccionModels.cs",
+              "RelativeDocumentMoniker": "Models\\TransaccionModels.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\TransaccionModels.cs",
+              "RelativeToolTip": "Models\\TransaccionModels.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:39:27.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:20:32.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-20T18:19:02.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BitacoraModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\BitacoraModels.cs",
+              "RelativeDocumentMoniker": "Models\\BitacoraModels.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\BitacoraModels.cs",
+              "RelativeToolTip": "Models\\BitacoraModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:08:24.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CuentaModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaModels.cs",
+              "RelativeDocumentMoniker": "Models\\CuentaModels.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaModels.cs",
+              "RelativeToolTip": "Models\\CuentaModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:08:05.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CuentaHabienteModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "RelativeDocumentMoniker": "Models\\CuentaHabienteModels.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "RelativeToolTip": "Models\\CuentaHabienteModels.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:07:42.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TarjetaService.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\TarjetaService.cs",
+              "RelativeDocumentMoniker": "Services\\TarjetaService.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\TarjetaService.cs",
+              "RelativeToolTip": "Services\\TarjetaService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:07:09.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TarjetaModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\TarjetaModels.cs",
+              "RelativeDocumentMoniker": "Models\\TarjetaModels.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\TarjetaModels.cs",
+              "RelativeToolTip": "Models\\TarjetaModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:06:46.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TarjetaController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\TarjetaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarjetaController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\TarjetaController.cs",
+              "RelativeToolTip": "Controllers\\TarjetaController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:06:20.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CuentaController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CuentaController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaController.cs",
+              "RelativeToolTip": "Controllers\\CuentaController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:05:58.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CuentaHabienteController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CuentaHabienteController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "RelativeToolTip": "Controllers\\CuentaHabienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:05:32.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransaccionService.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\TransaccionService.cs",
+              "RelativeDocumentMoniker": "Services\\TransaccionService.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\TransaccionService.cs",
+              "RelativeToolTip": "Services\\TransaccionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:59:34.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BitacoraService.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\BitacoraService.cs",
+              "RelativeDocumentMoniker": "Services\\BitacoraService.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Services\\BitacoraService.cs",
+              "RelativeToolTip": "Services\\BitacoraService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:58:55.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransaccionController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\TransaccionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransaccionController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\TransaccionController.cs",
+              "RelativeToolTip": "Controllers\\TransaccionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:57:46.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErroresController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\ErroresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ErroresController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\ErroresController.cs",
+              "RelativeToolTip": "Controllers\\ErroresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:57:24.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovimientosController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\MovimientosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovimientosController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\MovimientosController.cs",
+              "RelativeToolTip": "Controllers\\MovimientosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:56:37.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BitacoraController.cs",
+              "DocumentMoniker": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BitacoraController.cs",
+              "ToolTip": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\Proybsdii\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "RelativeToolTip": "Controllers\\BitacoraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T17:55:09.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

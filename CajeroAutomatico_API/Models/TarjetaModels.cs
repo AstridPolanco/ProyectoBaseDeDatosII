@@ -5,7 +5,7 @@ namespace CajeroAutomaticoAPI.Models
         public int IdCuentaHabitante { get; set; }
         public int IdCuenta { get; set; }
         public string NoTarjeta { get; set; } = string.Empty;
-        public DateTime FechaVencimiento { get; set; }
+        public string FechaVencimiento { get; set; } = string.Empty;
         public string CVV { get; set; } = string.Empty;
         public string PIN { get; set; } = string.Empty;
     }
@@ -15,21 +15,11 @@ namespace CajeroAutomaticoAPI.Models
         public string NoTarjeta { get; set; } = string.Empty;
         public string PINIngresado { get; set; } = string.Empty;
     }
-    public class ObtenerTarjetaRequest
-    {
-        public int? IdTarjeta { get; set; }
-        public string? NoTarjeta { get; set; }
-    }
 
-    public class TarjetaResponse
+    public class CambiarPINRequest
     {
-        public int IdTarjeta { get; set; }
         public string NoTarjeta { get; set; } = string.Empty;
-        public DateTime FechaVencimiento { get; set; }
-        public string CVV { get; set; } = string.Empty;
-        public bool Activa { get; set; }
-        public string NoCuenta { get; set; } = string.Empty;
-        public decimal Saldo { get; set; }
-        public string Titular { get; set; } = string.Empty;
+        public string PINActual { get; set; } = string.Empty;
+        public string PINNuevo { get; set; } = string.Empty;
     }
 }

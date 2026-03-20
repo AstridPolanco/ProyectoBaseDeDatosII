@@ -1,81 +1,8 @@
 [
   {
     "ContainingType": "CajeroAutomaticoAPI.Controllers.BitacoraController",
-    "Method": "ObtenerErrores",
-    "RelativePath": "api/Bitacora/errores",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idCuenta",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "fechaInicio",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "fechaFin",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CajeroAutomaticoAPI.Controllers.BitacoraController",
-    "Method": "ObtenerMovimientos",
-    "RelativePath": "api/Bitacora/movimientos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idCuenta",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "fechaInicio",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "fechaFin",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "idTipoMovimiento",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CajeroAutomaticoAPI.Controllers.BitacoraController",
-    "Method": "NotaDebito",
-    "RelativePath": "api/Bitacora/notadebito",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "req",
-        "Type": "CajeroAutomaticoAPI.Models.NotaDebitoRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CajeroAutomaticoAPI.Controllers.BitacoraController",
     "Method": "ObtenerBitacora",
-    "RelativePath": "api/Bitacora/obtener",
+    "RelativePath": "api/bitacora/obtener",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -94,22 +21,6 @@
         "Name": "fechaFin",
         "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CajeroAutomaticoAPI.Controllers.BitacoraController",
-    "Method": "PagarCheque",
-    "RelativePath": "api/Bitacora/pagarcheque",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "req",
-        "Type": "CajeroAutomaticoAPI.Models.PagarChequeRequest",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -237,6 +148,79 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.ErroresController",
+    "Method": "ObtenerErrores",
+    "RelativePath": "api/errores/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuenta",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.MovimientosController",
+    "Method": "ObtenerMovimientos",
+    "RelativePath": "api/movimientos/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuenta",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "idTipoMovimiento",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.TarjetaController",
+    "Method": "CambiarPIN",
+    "RelativePath": "api/tarjeta/cambiarpin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CajeroAutomaticoAPI.Models.CambiarPINRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CajeroAutomaticoAPI.Controllers.TarjetaController",
     "Method": "Crear",
     "RelativePath": "api/tarjeta/crear",
@@ -332,6 +316,54 @@
       {
         "Name": "req",
         "Type": "CajeroAutomaticoAPI.Models.NotaCreditoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.TransaccionController",
+    "Method": "NotaDebito",
+    "RelativePath": "api/transaccion/notadebito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CajeroAutomaticoAPI.Models.NotaDebitoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.TransaccionController",
+    "Method": "PagarCheque",
+    "RelativePath": "api/transaccion/pagarcheque",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CajeroAutomaticoAPI.Models.PagarChequeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CajeroAutomaticoAPI.Controllers.TransaccionController",
+    "Method": "Retiro",
+    "RelativePath": "api/transaccion/retiro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CajeroAutomaticoAPI.Models.RetiroRequest",
         "IsRequired": true
       }
     ],

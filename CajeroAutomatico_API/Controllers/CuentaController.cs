@@ -14,7 +14,7 @@ namespace CajeroAutomaticoAPI.Controllers
         [HttpPost("crear")]
         public async Task<IActionResult> Crear([FromBody] CrearCuentaRequest req)
         {
-            try   { return Ok(await _service.Crear(req)); }
+            try { return Ok(await _service.Crear(req)); }
             catch (Exception ex) { return BadRequest(new { Error = ex.Message }); }
         }
 
@@ -33,7 +33,7 @@ namespace CajeroAutomaticoAPI.Controllers
         [HttpGet("listar/{idHabitante}")]
         public async Task<IActionResult> Listar(int idHabitante)
         {
-            try   { return Ok(await _service.ListarPorHabiente(idHabitante)); }
+            try { return Ok(await _service.ListarPorHabiente(idHabitante)); }
             catch (Exception ex) { return BadRequest(new { Error = ex.Message }); }
         }
     }
