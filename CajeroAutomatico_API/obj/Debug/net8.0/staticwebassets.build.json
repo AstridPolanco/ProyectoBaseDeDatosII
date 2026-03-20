@@ -1,1 +1,77 @@
-{"Version":1,"Hash":"SNpLGuFRp9STt84mNLMzpRZ0DAT2lo5xp6LXfF72uEs=","Source":"CajeroAutomaticoAPI","BasePath":"_content/CajeroAutomaticoAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"CajeroAutomaticoAPI\\wwwroot","Source":"CajeroAutomaticoAPI","ContentRoot":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\","BasePath":"_content/CajeroAutomaticoAPI","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\app.js","SourceId":"CajeroAutomaticoAPI","SourceType":"Discovered","ContentRoot":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\","BasePath":"_content/CajeroAutomaticoAPI","RelativePath":"app#[.{fingerprint}]?.js","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"9qjg012a4h","Integrity":"4QsrJb8lQLFV5/aN4/wHKsJmt1j23bqEIQBo9QcthXs=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\app.js","FileLength":14086,"LastWriteTime":"2026-03-19T07:24:36+00:00"},{"Identity":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\index.html","SourceId":"CajeroAutomaticoAPI","SourceType":"Discovered","ContentRoot":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\","BasePath":"_content/CajeroAutomaticoAPI","RelativePath":"index#[.{fingerprint}]?.html","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"s1x35eimub","Integrity":"EIe6VtXQMHx9C5EOt40ksjlcMa4ZK3nSdcof5ut76zE=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\index.html","FileLength":18721,"LastWriteTime":"2026-03-19T18:32:19+00:00"},{"Identity":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\styles.css","SourceId":"CajeroAutomaticoAPI","SourceType":"Discovered","ContentRoot":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\","BasePath":"_content/CajeroAutomaticoAPI","RelativePath":"styles#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"e1elmtkwaw","Integrity":"rhtZAvCQNd/cRVIHdZ5Sa189zgiSqLG6QL2w4hGgNlA=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\styles.css","FileLength":9301,"LastWriteTime":"2026-03-19T07:19:32+00:00"}],"Endpoints":[{"Route":"app.9qjg012a4h.js","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\app.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"14086"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"4QsrJb8lQLFV5/aN4/wHKsJmt1j23bqEIQBo9QcthXs=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 07:24:36 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"9qjg012a4h"},{"Name":"label","Value":"app.js"},{"Name":"integrity","Value":"sha256-4QsrJb8lQLFV5/aN4/wHKsJmt1j23bqEIQBo9QcthXs="}]},{"Route":"app.js","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\app.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"14086"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"4QsrJb8lQLFV5/aN4/wHKsJmt1j23bqEIQBo9QcthXs=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 07:24:36 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-4QsrJb8lQLFV5/aN4/wHKsJmt1j23bqEIQBo9QcthXs="}]},{"Route":"index.html","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\index.html","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"18721"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\"EIe6VtXQMHx9C5EOt40ksjlcMa4ZK3nSdcof5ut76zE=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 18:32:19 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-EIe6VtXQMHx9C5EOt40ksjlcMa4ZK3nSdcof5ut76zE="}]},{"Route":"index.s1x35eimub.html","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\index.html","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"18721"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\"EIe6VtXQMHx9C5EOt40ksjlcMa4ZK3nSdcof5ut76zE=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 18:32:19 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"s1x35eimub"},{"Name":"label","Value":"index.html"},{"Name":"integrity","Value":"sha256-EIe6VtXQMHx9C5EOt40ksjlcMa4ZK3nSdcof5ut76zE="}]},{"Route":"styles.css","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\styles.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9301"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"rhtZAvCQNd/cRVIHdZ5Sa189zgiSqLG6QL2w4hGgNlA=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 07:19:32 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-rhtZAvCQNd/cRVIHdZ5Sa189zgiSqLG6QL2w4hGgNlA="}]},{"Route":"styles.e1elmtkwaw.css","AssetFile":"C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\wwwroot\\styles.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"9301"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"rhtZAvCQNd/cRVIHdZ5Sa189zgiSqLG6QL2w4hGgNlA=\""},{"Name":"Last-Modified","Value":"Thu, 19 Mar 2026 07:19:32 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"e1elmtkwaw"},{"Name":"label","Value":"styles.css"},{"Name":"integrity","Value":"sha256-rhtZAvCQNd/cRVIHdZ5Sa189zgiSqLG6QL2w4hGgNlA="}]}]}
+{
+  "Version": 1,
+  "Hash": "CxE1LbPkk7+8Y2ra1uGuSxGJhR3Jwhvw9L1+R2Ed4O0=",
+  "Source": "CajeroAutomaticoAPI",
+  "BasePath": "_content/CajeroAutomaticoAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CajeroAutomaticoAPI\\wwwroot",
+      "Source": "CajeroAutomaticoAPI",
+      "ContentRoot": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\",
+      "BasePath": "_content/CajeroAutomaticoAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\app.js",
+      "SourceId": "CajeroAutomaticoAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\",
+      "BasePath": "_content/CajeroAutomaticoAPI",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\index.html",
+      "SourceId": "CajeroAutomaticoAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\",
+      "BasePath": "_content/CajeroAutomaticoAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\styles.css",
+      "SourceId": "CajeroAutomaticoAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\",
+      "BasePath": "_content/CajeroAutomaticoAPI",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

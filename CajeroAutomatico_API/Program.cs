@@ -4,6 +4,8 @@ using CajeroAutomaticoAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls("http://localhost:5242", "https://localhost:7270");
+
 builder.Services.AddControllers();
 builder.Services.AddSingleton<DatabaseConnection>();
 builder.Services.AddScoped<TarjetaService>();
@@ -17,9 +19,9 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new()
     {
-        Title = "Cajero Automático API",
+        Title = "Cajero Automï¿½tico API",
         Version = "v1",
-        Description = "API REST para el simulador de cajero automático - Base de Datos II"
+        Description = "API REST para el simulador de cajero automï¿½tico - Base de Datos II"
     });
 });
 
@@ -38,6 +40,12 @@ app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cajero API v1");
     c.RoutePrefix = "swagger";
+});
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
 });
 
 app.UseCors("AllowAll");

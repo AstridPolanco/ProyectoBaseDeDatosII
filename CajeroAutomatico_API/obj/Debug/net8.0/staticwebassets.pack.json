@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CajeroAutomaticoAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CajeroAutomaticoAPI.props",
+      "PackagePath": "build\\CajeroAutomaticoAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CajeroAutomaticoAPI.props",
+      "PackagePath": "buildMultiTargeting\\CajeroAutomaticoAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CajeroAutomaticoAPI.props",
+      "PackagePath": "buildTransitive\\CajeroAutomaticoAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1541,32 +1541,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP BLUE\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\chris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\CajeroAutomaticoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\CajeroAutomaticoAPI.csproj",
       "projectName": "CajeroAutomaticoAPI",
-      "projectPath": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\CajeroAutomaticoAPI.csproj",
-      "packagesPath": "C:\\Users\\HP BLUE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP BLUE\\Desktop\\Tareas\\CajeroAutomaticoAPI\\obj\\",
+      "projectPath": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\CajeroAutomaticoAPI.csproj",
+      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chris\\OneDrive\\Desktop\\ProyectoCajero\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP BLUE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1584,8 +1576,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1619,7 +1610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
