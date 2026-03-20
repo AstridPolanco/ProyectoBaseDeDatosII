@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CajeroAutomatico_API\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CajeroAutomatico_API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\BitacoraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CajeroAutomatico_API\\Controllers\\BitacoraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 76,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "CajeroAutomatico_API\\wwwroot\\index.html",
+              "ToolTip": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\wwwroot\\index.html",
+              "RelativeToolTip": "CajeroAutomatico_API\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-20T05:08:30.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CuentaHabienteModels.cs",
+              "DocumentMoniker": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "RelativeDocumentMoniker": "CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "ToolTip": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "RelativeToolTip": "CajeroAutomatico_API\\Models\\CuentaHabienteModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T03:46:26.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CuentaHabienteController.cs",
+              "DocumentMoniker": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "RelativeDocumentMoniker": "CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "ToolTip": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "RelativeToolTip": "CajeroAutomatico_API\\Controllers\\CuentaHabienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T03:46:14.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BitacoraController.cs",
+              "DocumentMoniker": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "RelativeDocumentMoniker": "CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "ToolTip": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "RelativeToolTip": "CajeroAutomatico_API\\Controllers\\BitacoraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T03:44:57.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Program.cs",
+              "RelativeDocumentMoniker": "CajeroAutomatico_API\\Program.cs",
+              "ToolTip": "D:\\UNIVERSIDAD\\7MO SEMESTRE\\CAJEROAUTOMTICO\\ProyectoBaseDeDatosII\\CajeroAutomatico_API\\Program.cs",
+              "RelativeToolTip": "CajeroAutomatico_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T03:44:40.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

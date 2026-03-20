@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CajeroAutomatico_API",
+    "\\CajeroAutomatico_API\\bin",
+    "\\CajeroAutomatico_API\\bin\\Release",
+    "\\CajeroAutomatico_API\\Data",
+    "\\CajeroAutomatico_API\\Models",
+    "\\CajeroAutomatico_API\\obj",
+    "\\CajeroAutomatico_API\\Properties",
+    "\\CajeroAutomatico_API\\Services",
+    "\\CajeroAutomatico_API\\wwwroot"
+  ],
+  "SelectedNode": "\\CajeroAutomatico_API\\wwwroot\\index.html",
+  "PreviewInSolutionExplorer": false
+}
