@@ -117,7 +117,10 @@ namespace CajeroAutomaticoAPI.Services
                     IdTarjeta = Convert.ToInt32(reader["IdTarjeta"]),
                     NoTarjeta = reader["NoTarjeta"].ToString()!,
                     FechaVencimiento = Convert.ToDateTime(reader["FechaVencimiento"]),
-                    Activa = Convert.ToBoolean(reader["Activa"])
+                    Activa = Convert.ToBoolean(reader["Activa"]),
+                    Saldo = Convert.ToDecimal(reader["Saldo"]),           
+                    NoCuenta = reader["NoCuenta"].ToString()!,            
+                    Titular = reader["Titular"].ToString()!   
                 });
             }
 
